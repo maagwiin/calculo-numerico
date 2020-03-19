@@ -2,16 +2,14 @@
 %Magnu Windell Araujo Santos
 
 %Feito no MATLAB
-%teste no Octave: OK
+%teste no Octave: 
 
 clear; %limpa as variáveis
 clc; %limpa a command window
 
-n1 = input("Digite um número inteiro: ");
-fatorial = 1;
+fprintf("Sendo a função ax² + bx + c:\n");
+a = input("Digite a: ");
+b = input("Digite b: ");
+c = input("Digite c: ");
 
-for i = n1:-1:1
-   fatorial = fatorial*i;
-end
-
-fprintf("\nO fatorial de %d é %d\n", n1, fatorial);
+raizEquacaoSegundoGrau(a, b, c);
