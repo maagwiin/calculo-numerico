@@ -2,7 +2,7 @@
 %Magnu Windell Araujo Santos
 
 %Feito no MATLAB
-%teste no Octave:
+%teste no Octave: OK
 
 clear; %limpa as variáveis
 clc; %limpa a command window

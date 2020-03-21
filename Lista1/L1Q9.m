@@ -2,7 +2,7 @@
 %Magnu Windell Araujo Santos
 
 %Feito no MATLAB
-%teste no Octave:
+%teste no Octave: OK
 
 clear; %limpa as variáveis
 clc; %limpa a command window
@@ -14,13 +14,15 @@ clc;
 
 fprintf("Lendo coordenadas euclidianas do ponto P\n");
 for i = 1:n
-    p(i) = input(i+"ª coordenada ponto P: ");
+    fprintf("%d", i);
+    p(i) = input("ª coordenada ponto P: ");
 end
 clc;
 
 fprintf("Lendo coordenadas euclidianas do ponto Q\n");
 for i = 1:n
-    q(i) = input(i+"ª coordenada ponto Q: ");
+    fprintf("%d", i);
+    q(i) = input("ª coordenada ponto Q: ");
 end
 clc;
 

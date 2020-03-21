@@ -2,18 +2,15 @@
 %Magnu Windell Araujo Santos
 
 %Feito no MATLAB
-%teste no Octave:
+%teste no Octave: OK
 
 clear; %limpa as variáveis
 clc; %limpa a command window
 
-mult = 1;
 graos = 1;
+
 for i=1:64
-    disp(mult);
-    disp(graos);
-    mult = mult*2;
-    graos = graos + mult;
+    graos = graos*2;
 end
-disp(mult);
-disp(graos);
+
+fprintf("\nO monge espera receber %d grãos de trigo.\n", graos);

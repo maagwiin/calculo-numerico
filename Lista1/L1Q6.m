@@ -2,7 +2,7 @@
 %Magnu Windell Araujo Santos
 
 %Feito no MATLAB
-%teste no Octave:
+%teste no Octave: OK
 
 %restringir input de 1 a 5
 
@@ -11,7 +11,8 @@ clc; %limpa a command window
 
 fprintf("Gabarito:\n");
 for i = 1:10
-    gabarito(i) = input(i + "ª questão: ");
+    fprintf("%dª ", i);
+    gabarito(i) = input("questão: ");
 end
 
 clc;
@@ -21,7 +22,8 @@ disp(gabarito);
 
 fprintf("Respostas aluno:\n");
 for i = 1:10
-    respostas(i) = input(i + "ª questão: ");
+    fprintf("%dª ", i);
+    respostas(i) = input("questão: ");
 end
 
 clc;
