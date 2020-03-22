@@ -22,5 +22,3 @@ elseif(x1 == x2)
 else
     fprintf("\nAs raízes reais de %.2fx² + %.2fx + %.2f são: %.2f e %.2f\n", a, b, c, x1, x2);
 end
-
-
