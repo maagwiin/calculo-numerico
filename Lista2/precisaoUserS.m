@@ -14,11 +14,11 @@ val = input("Digite o valor: ");
 
 prec = 0;
 a = 1;
-s = val(i) + a;
+s = val + a;
 
-while(s > val(i))
+while(s > val)
     a = single(a/2);
-    s = single(val(i) + a);
+    s = single(val + a);
 end
 
 prec = single(2*a);
