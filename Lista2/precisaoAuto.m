@@ -1,10 +1,12 @@
-%Listas de Implementação Cálculo Numérico 20/1
-%Magnu Windell Araujo Santos
+%Listas de Implementaï¿½ï¿½o Cï¿½lculo Numï¿½rico 20/1
+%Magnu Windell Araujo Santos e Guilherme Lopes de Oliveira
+
+%Programa com precisÃ£o dupla
 
 %Feito no MATLAB
 %teste no Octave: 
 
-clear; %limpa as variáveis
+clear; %limpa as variï¿½veis
 clc; %limpa a command window
 
 
@@ -22,8 +24,12 @@ for i = 1:8
    
     prec = 2*a;
 
-    fprintf("\nUsando o Valor %d, a precisão da máquina é: ", val(i));
+    fprintf("\nUsando o Valor %d, a precisï¿½o da mï¿½quina ï¿½: ", val(i));
     disp(prec);
   
 end    
 
+%
+%   Por padrÃ£o, o matlab/octave declara as variÃ¡veis com precisÃ£o dupla, ou seja, cada variÃ¡vel tem um espaÃ§o
+%   de 64 bits (8 Bytes), sendo 52 bits para a fraÃ§Ã£o da variÃ¡vel, 11 bits para o expoente e 1 bit para o sinal.
+%
