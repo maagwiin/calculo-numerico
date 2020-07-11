@@ -12,6 +12,7 @@ clc; %limpa a command window
 
 val = input("Digite o valor: ");
 
+prec = 0
 a = 1;
 s = val + a;
 
