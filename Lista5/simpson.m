@@ -1,3 +1,11 @@
+% Listas de Implementação Cálculo Numérico 20/1
+% Magnu Windell Araujo Santos e Guilherme Lopes de Oliveira
+%
+% Função de integração numérica método de Simpson
+%
+% Feito no Octave
+
+
 function I = simpson(funcao, intervalo , passo)
   a = intervalo(1);
   b = intervalo(2);
@@ -14,7 +22,7 @@ function I = simpson(funcao, intervalo , passo)
      I = I + 4*funcao(indice);
   endfor
   
-  for j=2:2:(passo-2)
+  for j=2:2:(passo-1)
      indice = a+h*j;
      I = I + 2*funcao(indice);
   endfor
